@@ -1,4 +1,4 @@
-version: '3'
+version: '3.6'
 
 services:
   web:
@@ -138,6 +138,7 @@ services:
 
 networks:
   localnet:
+    attachable: true
 
 volumes:
   rs1:
