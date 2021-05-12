@@ -138,7 +138,6 @@ services:
 
 networks:
   localnet:
-    attachable: true
 
 volumes:
   rs1:
