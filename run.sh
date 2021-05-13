@@ -75,10 +75,7 @@ docker-compose exec mongo1 /usr/bin/mongo --eval 'db.test.find()'
 echo -e '''
 
 ==============================================================================================================
-Examine the collections:
-  - In your shell run: docker-compose exec mongo1 /usr/bin/mongo
+DONE!
 ==============================================================================================================
 
-Use <ctrl>-c to quit'''
-
-read -r -d '' _ </dev/tty
+'''
